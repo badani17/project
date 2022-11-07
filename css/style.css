@@ -517,10 +517,10 @@ header nav ul li a:hover{
     
     #container button{
         margin-top: 1 %;
-        font-size: 30px;
+        font-size : 30px;
         color: black;
         padding: 10px 20px;
-        background:rgb(42, 96, 42);
+        background:rgb(42 , 96, 42);
         border: none;
         
         
@@ -542,7 +542,7 @@ header nav ul li a:hover{
     #story{
     
         width: 100%;
-        height: auto;
+        height: 500px;
         background-image: url(/images/pasta.jpg);
         background-position: center;
         background-size: contain;
@@ -561,9 +561,10 @@ header nav ul li a:hover{
     
     #story .story1{
         width: auto;
+        margin-top: 17%;
         margin-left: 7%;
         margin-bottom: 0%;
-        padding-bottom: 5%;
+        padding-bottom: 1%;
         margin-right: 7%;
     }
 
@@ -798,9 +799,9 @@ header nav ul li a:hover{
         margin-left: 20%;
         width: 60%;
         height: 30px;
-        background: #383e42;
+        background: #ffffff;
         border: 1px solid black;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     
     
