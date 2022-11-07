@@ -1,0 +1,869 @@
+body{
+    margin:0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color:#383e42;
+    opacity: 0.86;
+}
+
+#back #mobile-menu{
+    display: none;
+}
+header img {
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 200px;
+}
+
+header nav{
+    width: 100%;
+}
+
+
+header nav ul{
+    display: flex;
+    float: right;
+    margin-right: 10%;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-top: 5px;
+    text-decoration: none;
+    margin-top: 3%;
+}
+header nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 8px;
+    color:white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    /* border: 1px red solid; */
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: rgb(204, 204, 204);
+    color: rgb(255, 0, 0);
+}
+
+
+#container {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    
+}
+
+#container h3{
+
+    margin-top: 0;
+    text-align: center;
+    padding-top: 13%;
+    margin-bottom: 1%;
+    color: rgb(232, 213, 213);
+}
+
+#container h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 45px;
+    color: white;
+    font-family:cursive ,sans-serif;
+}
+
+#container button{
+    margin-top: 1%;
+    font-size: 30px;
+    color: black;
+    padding: 10px 20px;
+    background:rgb(42, 96, 42);
+    border: none;
+    
+    
+}
+
+#container button:hover{
+    background: white;
+    transition: 0.3s;
+}
+
+#back{
+    background-image: url(/project/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#story{
+
+    width: 100%;
+    height: 500px;
+    background-image: url(/project/images/pasta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#story #h1{
+
+} 
+
+#story h1{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 3%;
+    color: black;
+    font-size: 30px;
+}
+
+#story div {
+    display: flex;
+}
+
+#story .story1{
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    color: black;
+    font-size: 18px;
+}
+
+#story .story2{
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    color: black;
+    font-size: 18px;
+}
+
+
+#menu {
+    width: 100%;
+    height: auto;
+    background-image: url(/project/images/menu-bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu h1{
+    margin-top: 0;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#menu-m{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.menu-left{
+    margin-left: 20%;
+    width: 20%;
+}
+
+.menu-right{
+    margin-left: 20%;
+    width: 20%;
+    
+}
+
+
+.menu-items img{
+
+    margin-left: 22%;
+    width: 100px;
+    height: 70px;
+    
+}
+
+.p{
+  display: flex;
+  width: 100%;  
+}
+
+.p p{
+    padding-left: 15%;
+    width: 70%;
+    margin-top: 3%;
+}
+
+.p h4{
+    
+    margin-top: 4%;
+    color: red;
+}
+
+#chefs{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.card{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.card img{
+
+    height: 200px;
+    width: auto;
+}
+
+
+#reservation{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#reservation hr{
+    width: 33%;
+    margin-left: 33%;
+}
+
+#reservation h3{
+
+    padding-top: 1%;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+}
+
+#forma{
+
+    width: 50%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#forma #emri{
+
+    width: 25%;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #email{
+
+    width: 25%;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #numri{
+
+    width: 25%;
+    margin-right: 0px;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #data{
+
+    width: 25%;
+    padding-left: 3.5px;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #people{
+
+    width: 25%;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #message{
+
+    width: 25%;
+    padding: 10px 15px;
+    margin-top:1%;
+    border: none;
+    background: #383e42;
+    color: white;
+}
+
+#forma #submit{
+    margin-top: 3.2%;
+    margin-bottom: 5%;
+    width: 45%;
+}
+
+#emri::placeholder{
+    color: white;
+}
+
+#email::placeholder{
+    color: white;
+}
+
+#numri::placeholder{
+    color: white;
+}
+
+#people::placeholder{
+    color: white;
+}
+
+#message::placeholder{
+    color: white;
+}
+
+#forma #submit:hover{
+    background: #383e42;
+    transition: 0.3s;
+    color: white;
+}
+
+
+#footer{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(57, 57, 56);
+    
+}
+
+#footer img{
+    width: 10%;
+    margin-top: 0;
+    padding-top: 3%;
+}
+
+#Link h2{
+    margin-top: 3%;
+}
+
+#Link h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#Link h1{
+    margin-top: 1%;
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+}
+
+#social{
+    margin-top: 0;
+}
+
+#F img{
+    padding-bottom: 1%;
+    width: 60px;
+}
+#I img{
+    padding-bottom: 0.3%;
+    width: 50px;
+}
+#T img{
+    padding-bottom: 0.8%;
+    width: 50px;
+}
+
+
+#Copy{
+    margin-bottom: 0;
+}
+
+#Copy h2{
+    margin-top: 1%;
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    font-weight: 100;
+    color: white;
+
+}
+
+
+
+/* ?MEDIA */
+
+@media (max-width: 400px) {
+    body{
+        margin:0;
+        background-color: rgb(151, 151, 194);
+    }
+    
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        background-color:#383e42;
+        opacity: 0.86;
+    }
+    
+    header img {
+        margin-top: 5px;
+        margin-left: 5%;
+        width: 200px;
+    }
+    
+    header nav{
+        display: none;
+
+    }
+    
+    
+    header nav ul{
+        display: flex;
+        float: right;
+        margin-right: 10%;
+        list-style: none;
+    }
+    
+    header nav ul li{
+        margin-top: 5px;
+        text-decoration: none;
+    }
+    header nav ul li a {
+        text-decoration: none;
+       margin-left: 20px;
+       padding: 8px 8px;
+        color:white;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    
+    header nav ul li a:hover{
+        /* border: 1px red solid; */
+        border-radius: 5px;
+        transition: 0.3s;
+        background-color: rgb(204, 204, 204);
+        color: rgb(255, 0, 0);
+    }
+
+    #back #mobile-menu{
+        text-align: right;
+        padding :0px 5.5px;
+        margin-left: 27%;
+        width: auto;
+        height: 33px;
+        display: block;
+        background-color: none;
+        margin-top: 4%;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+
+    #back #mobile-menu a img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    #container {
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        
+    }
+    
+    #container h3{
+    
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30%;
+        margin-bottom: 1%;
+        color: rgb(232, 213, 213);
+    }
+    
+    #container h1{
+        text-align: center;
+        margin-top: 0;
+        font-size: 45px;
+        color: white;
+        font-family:cursive ,sans-serif;
+    }
+    
+    #container button{
+        margin-top: 1 %;
+        font-size: 30px;
+        color: black;
+        padding: 10px 20px;
+        background:rgb(42, 96, 42);
+        border: none;
+        
+        
+    }
+    
+    #container button:hover{
+        background: white;
+        transition: 0.3s;
+    }
+    
+    #back{
+        background-image: url(/project/images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    #story{
+    
+        width: 100%;
+        height: auto;
+        background-image: url(/project/images/pasta.jpg);
+        background-position: center;
+        background-size: contain;
+    }
+    
+    #story h1{
+        margin-top: 0;
+        text-align: center;
+        padding-top: 3%;
+    }
+    
+    #story div {
+        display: block;
+        width: 100%;
+    }
+    
+    #story .story1{
+        width: auto;
+        margin-left: 7%;
+        margin-bottom: 0%;
+        padding-bottom: 5%;
+        margin-right: 7%;
+    }
+
+    #story .story2{
+        display: none;
+    }
+    
+    
+    
+    #menu {
+        width: 100%;
+        height: auo;
+        background-color: rgb(89, 77, 89);
+        display: inline-block;
+    }
+    
+    #menu h1{
+        margin-top: 0;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    #menu-m{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    
+    .menu-left{
+        margin-left: 30%;
+        width: 20%;
+    }
+    
+    .menu-right{
+        margin-left: 33%;
+        width: 20%;
+        
+    }
+
+    .menu-items {
+        padding-top: 20px;
+    }
+    
+    
+    .menu-items img{
+    
+        margin-left: 22%;
+        width: 100px;
+        height: 70px;
+        
+    }
+    
+    .p{
+      display: flex;
+      width: 100%;  
+      text-align: right;
+    }
+    
+    .p p{
+        padding-left: 15%;
+        width: 70%;
+        margin-top: 3%;
+    }
+    
+    .p h4{
+        
+        margin-top: 4%;
+        color: red;
+        margin-left: 30px;
+    }
+    
+
+    #chefs{
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+    
+    }
+    
+    .card{
+        margin-top: 7%;
+        margin-bottom: 5%;
+        margin-left: 12%;
+    }
+    
+    .card img{
+    
+        height: 200px;
+        width: auto;
+    }
+
+    
+
+
+
+    
+    #reservation{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    #reservation hr{
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    #reservation h3{
+    
+        padding-top: 3%;
+        margin-top: 0;
+        color: black;
+        margin-bottom: 2%;
+    }
+
+    #reservation h1{
+        margin-top: 0;
+        margin-bottom: 1%;
+    }
+    
+    #forma{
+        width: 60%;
+        height: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    
+    #forma #emri{
+    
+        display: block;
+        width: 70%;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%;
+
+    }
+    
+    #emri::placeholder{
+        color: white;
+    }
+    
+    #email::placeholder{
+        color: white;
+    }
+    
+    #numri::placeholder{
+        color: white;
+    }
+    
+    #people::placeholder{
+        color: white;
+    }
+    
+    #message::placeholder{
+        color: white;
+    }
+    
+    #forma #email{
+    
+        display: block;
+        width: 70%;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%;
+    }
+    
+    #forma #numri{
+    
+        display: block;
+        width: 70%;
+        margin-right: 0px;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%;
+    }
+    
+    #forma #data{
+    
+        display: block;
+        width: 70%;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%;
+    }
+
+    #forma br{
+        display: none;
+    }
+    
+    #forma #people{
+    
+        display: block;
+        width: 70%;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%;
+    }
+    
+    #forma #message{
+    
+        display: block;
+        width: 70%;
+        padding: 10px 15px;
+        margin-top:3%;
+        border: none;
+        background: #383e42;
+        margin-left: 15%; 
+    }
+    
+    #forma #submit{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        margin-left: 20%;
+        width: 60%;
+        height: 30px;
+        background: #383e42;
+        border: 1px solid black;
+        color: white;
+    }
+    
+    
+    
+    #footer{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: rgb(57, 57, 56);
+        
+    }
+    
+    #footer img{
+        width: 40%;
+        margin-top: 0;
+        padding-top: 3%;
+    }
+    
+    #Link h2{
+        margin-top: 3%;
+    }
+    
+    #Link h2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #Link h1{
+        margin-top: 1%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    #social{
+        margin-top: 0;
+    }
+    
+    #F img{
+        padding-bottom: 2%;
+        width: 60px;
+    }
+    #I img{
+        padding-bottom: 0.3%;
+        width: 50px;
+    }
+    #T img{
+        padding-bottom: 2%;
+        width: 50px;
+    }
+    
+    
+    #Copy{
+        margin-bottom: 0;
+        color: white;
+    }
+    
+    #Copy h2{
+        margin-top: 1%;
+        margin-bottom: 0;
+        padding-bottom: 3%;
+        font-weight: 100;
+        font-size: 20px;
+    
+    }
+}
+
